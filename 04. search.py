@@ -6,3 +6,9 @@ strings = []
 for _ in range(n):
     string = input()
     strings.append(string)
+    
+filtered_strings = []    
+
+for current_string in strings:
+    if magic_word in current_string:
+        filtered_strings.append()(current_string)
