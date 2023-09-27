@@ -18,4 +18,5 @@ for num in numbers:
     
     if filtered_numbers:
         filtered_numbers.append(num)
-        print(filtered_numbers)    
+        
+print(filtered_numbers)    
